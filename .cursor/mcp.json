@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "node",
+            "args": [
+                "/Users/keita.horikawa/github/mcp-poc/weather/build/index.js"
+            ]
+        }
+    }
+}
