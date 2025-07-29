@@ -1,9 +1,12 @@
 {
     "mcpServers": {
         "weather": {
-            "command": "node",
+            "command": "docker",
             "args": [
-                "/Users/keita.horikawa/github/mcp-poc/weather/build/index.js"
+                "run",
+                "-i",
+                "--rm",
+                "weather-mcp"
             ]
         }
     }

@@ -11,13 +11,13 @@ https://modelcontextprotocol.io/quickstart/server#node
 - `tsconfig.json` : TypeScriptの設定
 
 ## 使い方
-1. 依存パッケージのインストール
+1. dockerイメージのビルド
    ```sh
-   npm ci
+   docker build -t weather-mcp .
    ```
-2. TypeScriptのビルド
+2. dockerコンテナの起動
    ```sh
-   npm run build
+   docker run -it weather-mcp
    ```
 
 ## 提供ツール
