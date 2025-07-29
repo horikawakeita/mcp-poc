@@ -17,7 +17,7 @@ https://modelcontextprotocol.io/quickstart/server#node
    ```
 2. dockerコンテナの起動
    ```sh
-   docker run -it weather-mcp
+   docker run -it -rm -p 3000:3000 weather-mcp
    ```
 
 ## 提供ツール

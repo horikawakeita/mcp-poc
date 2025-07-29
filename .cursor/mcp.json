@@ -1,13 +1,8 @@
 {
     "mcpServers": {
         "weather": {
-            "command": "docker",
-            "args": [
-                "run",
-                "-i",
-                "--rm",
-                "weather-mcp"
-            ]
+            "type": "http",
+            "url": "http://172.18.41.13:3000/mcp"
         }
     }
 }
